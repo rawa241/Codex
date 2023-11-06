@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class codez{
+public static void main(String[]args){
+    String op;
+    java.util.Scanner input= new Scanner(System.in);
+    int num1,num2;
+    System.out.println("Please enter the first number:");
+    num1=input.nextInt();
+    System.out.println("Please enter the secound number:");
+    num2=input.nextInt();
+    System.out.println("Please select on of the following operations by typing a, b, or c");
+    System.out.println("-------------------------------------------------------------------------------");
+System.out.println("a- Add the two numbers");
+System.out.println("b- Multiply the two numbers");
+System.out.println("c- Find the average of the two numbers");
+ System.out.println("-------------------------------------------------------------------------------");
+op=input.next();
+
+
+    if(op.equals("a")){
+    System.out.println(num1+" + "+num2+" = "+add(num1, num2));
+}
+else if(op.equals("b")){
+    System.out.println(num1+" * "+num2+" = "+multi(num1, num2));
+}
+if(op.equals("c")){
+    System.out.println("The average of "+num1+" and "+num2+" is "+avg(num1, num2));
+}
+}
+
+public static  int add (int x,int y){
+    int add= x+y;
+    return add;
+}
+public static int multi (int x,int y){
+    int multi= x*y;
+    return multi;
+}
+public static int avg (int x,int y){
+    int avg= (x+y)/2;
+    return avg;
+}
+
+
+
+
+
+}
