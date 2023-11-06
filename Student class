@@ -1,0 +1,42 @@
+package comp.oop;
+
+public class Student2 {
+    String name;
+    String major;
+  double gpa;
+   int id;
+     public Student2(String name, String major, int id , double gpa){
+     this.name=name;
+     this.id=id;
+     this.major=major;
+     this.gpa=gpa;
+     } 
+ public String getname(){
+     return name;
+ }
+ public String getmajor(){
+     return major;
+ }
+ public double getgpa(){
+     return gpa;
+ }
+ public int getid(){
+     return id;
+ }
+ public void setname(String name){
+     this.name= name;
+ }
+ public void setid(int id){
+     this.id=id;
+ }
+ public void setmajor(String major){
+     this.major=major;
+ }
+ public void setgpa(double gpa){
+     this.gpa=gpa;
+ }
+ public void changemajor(String newMajor){
+     this.major=newMajor;
+ }
+ 
+}
