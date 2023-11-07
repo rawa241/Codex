@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main() {
+    string F1,L1,F2,L2;
+    cout<<"Enter 1st person name:\n";
+    cin>>F1>>L1;
+    cout<<"Enter 2end perspersonnamd:\n";
+    cin>>F2>>L2;
+    if(L1==L2)cout<<"ARE Brothers \n";
+    else cout<<"NOT \n";
+  return 0;
+}
