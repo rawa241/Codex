@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class code{
+  public static void main (String []args){
+    Scanner input= new Scanner (System.in);
+    int a,b,c,d;
+    a=input.nextInt();
+    b=input.nextInt();
+    c=input.nextInt();
+    d=input.nextInt();
+    int x;
+    x=(a*b)-(c*d);
+    System.out.printf("Difference = %d",x);
+  }
+}
