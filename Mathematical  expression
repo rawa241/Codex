@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+long long A,B,C;
+char S;
+char Q;
+cin>>A>>S>>B>>Q>>C;
+if(A+B==C &&S=='+'&& Q)cout<<"right\n";
+else if(A+B!=C && S=='+' && Q) cout<<" "<<A+B<<endl;
+if(A-B==C &&S=='-'&& Q)cout<<"right\n";
+else if(A-B!=C && S=='-' && Q) cout<<" "<<A-B<<endl;
+if(A*B==C &&S=='*'&& Q)cout<<"right\n";
+else if(A*B!=C && S=='*' && Q) cout<<" "<<A*B<<endl;
+  return 0;
+}
