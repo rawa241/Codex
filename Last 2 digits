@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main() {
+    int A,B,C,D;
+    cout<<"enter A:\n";
+    cin>>A;
+    cout<<"enter B:\n";
+    cin>>B;
+    cout<<"enter C:\n";
+    cin>>C;
+    cout<<"enter D:\n";
+    cin>>D;
+    cout<<"the last two digits:"<<(A*B*C*D)%100<<endl;
+ 
+    return 0;
+}
